@@ -35,7 +35,7 @@ return false;
 <hr>
 </div>
 <div class="container-form">
-<form action="#">
+<form action="#" name="bookForm" onsubmit="return validate();">
 <h2 class="heading heading-yellow">Reservation CLIENT(HNI)</h2>
 
 <div class="form-field">
@@ -48,7 +48,7 @@ return false;
 </div>
 <div class="form-field">
 <p>Date</p>
-<input type="date">
+<input type="date" min="2022-03-05" max="2030-03-05">
 </div>
 <div class="form-field">
 <p>Time</p>
